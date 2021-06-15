@@ -1,0 +1,28 @@
+
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
+.lineno {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.lineno::selection, .lineno::-moz-selection {
+  background: none;
+}
+
+/* Fix table border github gist snippets */
+
+.gist, .gist-file table tr {
+  border: unset;
+}
+
+.gist, .gist-file table tr td {
+  border: unset;
+}
+
+/* --- Social media sharing section --- */
+
+#social-share-section {
+  margin-bottom: 1.875rem;
+  margin-top: 1.875rem;
+}

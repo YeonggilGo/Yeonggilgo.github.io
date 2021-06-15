@@ -1,0 +1,23 @@
+/* Tags page */
+
+.tag-btn {
+  margin: 0.3125rem;
+}
+
+#full-tags-list {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#full-tags-list .tag-entry {
+  margin: 0 0 0.9375rem 1.5625rem;
+}
+
+#full-tags-list .tag-entry a {
+  font-size: 1.25rem;
+}
+
+#full-tags-list .tag-entry .entry-date {
+  color: #808080;
+  font-style: italic;
+  font-size: 1rem;
+}
