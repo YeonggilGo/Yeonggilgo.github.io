@@ -1,0 +1,43 @@
+/* --- Pagination --- */
+
+.pagination {
+  margin: 0.625rem 0 0;
+  justify-content: space-between;
+}
+
+.pagination.blog-pager {
+  margin-top: 0;
+}
+
+.pagination .page-item.next {
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .pagination.blog-pager {
+    margin-top: 0.625rem;
+  }
+}
+
+.pagination .page-item .page-link {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 0.625rem 0.3125rem;
+  background-color: #FFF;
+  border-radius: 0;
+  color: _pallette(text-col);
+}
+@media (min-width: 768px) {
+  .pagination .page-item .page-link {
+    padding: 0.9375rem 1.5625rem;
+  }
+}
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link:focus {
+  color: #FFF;
+  border: 1px solid _pallette(hover-col);
+  background-color: _pallette(hover-col);
+}

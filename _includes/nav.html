@@ -3,12 +3,9 @@
   {%- if site.title-img -%}
     <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
   {%- elsif site.title -%}
-    <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
+    <a class="navbar-brand" style="color: #404040;" href="{{ '' | absolute_url }}">{{ site.title }}</a>
   {%- endif -%}
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
@@ -26,10 +23,18 @@
           </li>
         {% else %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+            <a class="nav-link" style="color: #404040;" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
+      {% if site.post_search %}
+        <li class="nav-item">
+          <a class="nav-link" style="color: #404040" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li>
+      {%- endif -%}
     </ul>
   </div>
 
@@ -50,3 +55,5 @@
   {% endif %}
 
 </nav>
+
+{% include search.html %}

@@ -1,0 +1,56 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Lora', 'Times New Roman', serif),
+		family-fixed: 			('Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif),
+		weight:				300,
+		weight-bold:		800,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+	$palette: (
+		bg:					#ffffff,
+		bg-alt:				#ffffff,
+		fg:					#404040,
+		fg-bold:			#404040,
+		fg-light:			rgba(22,22,0,0.6),
+		border:				rgba(43,43,0,0.9),
+		border-bg:			rgba(43,43,0,0.99),
+		accent1:			#6fc3df,
+		accent2:			#8d82c4,
+		accent3:			#ec8d81,
+		accent4:			#e7b788,
+		accent5:			#8ea9e8,
+		accent6:			#87c5a4,
+		navbar-col: #EAEAEA,
+		navbar-text-col: #404040,
+		navbar-border-col: #DDDDDD,
+		page-col: #FFFFFF,
+		text-col: #404040,
+		link-col: #404040,
+		hover-col: #0085A1,
+		footer-col: #EAEAEA,
+		footer-text-col: #777777,
+		footer-link-col: #404040,
+	);

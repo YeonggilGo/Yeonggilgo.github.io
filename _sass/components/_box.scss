@@ -1,0 +1,56 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Box */
+
+	.box {
+		border: solid 1px _palette(border);
+		margin-bottom: _size(element-margin);
+		padding: 1.5em;
+
+		> :last-child,
+		> :last-child > :last-child,
+		> :last-child > :last-child > :last-child {
+			margin-bottom: 0;
+		}
+
+		&.alt {
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+	}
+
+	.box-note,
+	.box-warning,
+	.box-error,
+	.box-success {
+	padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
+	margin: 1.25rem 1.25rem 1.25rem 0.3125rem;
+	border: 1px solid #eee;
+	border-left-width: 0.3125rem;
+	border-radius: 0.3125rem 0.1875rem 0.1875rem 0.3125rem;
+	}
+
+	.box-note {
+	background-color: #eee;
+	border-left-color: #2980b9;
+	}
+
+	.box-warning {
+	background-color: #fdf5d4;
+	border-left-color: #f1c40f;
+	}
+
+	.box-error {
+	background-color: #f4dddb;
+	border-left-color: #c0392b;
+	}
+
+	.box-success {
+	background-color: #98FB98;
+	border-left-color: #3CB371;
+	}
