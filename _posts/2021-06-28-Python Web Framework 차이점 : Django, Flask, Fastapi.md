@@ -1,22 +1,19 @@
 ---
 layout: post
 title: "Python Web Framework 차이점: Django, Flask, Fastapi"
-subtitle: Excerpt from Soulshaping by Jeff Brown
 # cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/pyspark.jpg
+thumbnail-img: /assets/img/flask_fastapi.jpg
 # share-img: /assets/img/path.jpg
 tags: [python, web, flask, django]
-gh-repo: yeonggilgo/pyspark-exercise
-gh-badge: [star, fork, follow]
 comments: true
+# gh-repo: yeonggilgo/pyspark-exercise
 ---
 
  Micro Api server를 구현할 일이 생겼는데 어떤 web framework가 유리할지, 어떤 차이점을 가지고 있는지 공부해봤다.
 
 
 
-🔨  용도별
-
+# 🔨  용도별
 
 
 ## 1. Django
@@ -153,4 +150,4 @@ comments: true
 
 
 
-참고 : https://dingrr.com/blog/post/python-웹프레임워크-끝판왕-가리기-django-flask-fastapi-sanic
+참고 : [웹프레임워크 - 끝판왕 가리기](https://dingrr.com/blog/post/python-웹프레임워크-끝판왕-가리기-django-flask-fastapi-sanic)
