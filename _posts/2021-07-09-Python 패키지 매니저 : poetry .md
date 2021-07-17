@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Web Framework 차이점: Django, Flask, Fastapi"
+title: "Python 패키지 매니저 : Poetry"
 # cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/poetry.jpg
 # share-img: /assets/img/path.jpg
@@ -16,10 +16,10 @@ comments: true
 
  또한 `build`와 `publish`까지 지원해주고 있어서, 실제로 프로젝트를 만들고 저장소에 배포까지 하고자 하는 사람에게 유용합니다.
 
-<a text-align="center" href="https://github.com/python-poetry">
-
-​	<img href="../assets/img/poetry_github.png"/>
-
+<a href="https://github.com/python-poetry">
+    <p align="center">
+        <img align="center" src="../assets/img/poetry_github.png"/>
+    </p>
 </a>
 
 깃헙의 [python-poetry](https://github.com/python-poetry) 라는 계정에서 관리되는데, poetry 하나를 위해서 따로 만든 프로젝트가 있을 정도로 꽤나 정성스럽게 만든 프로젝트입니다.

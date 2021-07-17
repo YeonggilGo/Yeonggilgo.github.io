@@ -221,6 +221,7 @@ exclude:
   - screenshot.png
   - docs/
   - todo.md
+  - .idea/*
 
 plugins:
   - jekyll-paginate
