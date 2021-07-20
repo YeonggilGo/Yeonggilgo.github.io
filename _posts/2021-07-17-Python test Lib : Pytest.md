@@ -2,10 +2,11 @@
 layout: post
 title: "Python test Lib : Pytest"
 # cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/pytest.jpg
+thumbnail-img: /assets/img/pytest.png
 # share-img: /assets/img/path.jpg
 tags: [python, test]
 comments: true
+categories: [Python]
 # gh-repo: yeonggilgo/pyspark-exercise
 ---
 
