@@ -6,6 +6,7 @@ tags: [spark]
 comments: true
 categories: [Spark]
 gh-repo: yeonggilgo/spark-practice
+gh-badge: [star, fork, follow]
 ---
 
 > [스파크를 다루는 기술]( https://url.kr/m1yhdr )으로 학습한 내용을 기록함.
