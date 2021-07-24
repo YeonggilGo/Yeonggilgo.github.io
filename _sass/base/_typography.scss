@@ -31,7 +31,6 @@
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
 		));
-		text-decoration: none;
   		color: _palette(link-col);
 
 		&:hover {

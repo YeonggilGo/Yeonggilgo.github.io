@@ -267,6 +267,5 @@ park
 
 - [Official Docs](https://docs.python.org/ko/3/howto/regex.html#search-and-replace)
 - [예제로 배우는 python 프로그래밍](http://pythonstudy.xyz/python/article/401-정규-표현식-Regex)
-
 - [Jump to Python](https://wikidocs.net/4308)
 
